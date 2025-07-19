@@ -782,6 +782,27 @@ h6{
     padding: 40px 20px;
 
 }
+.view-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    borde-radius: 20px;
+    border-radius: 38px;
+}
+.works p {
+    color: white;
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 69px;
+}
+.work-1 span {
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: #3c214a;
+    padding: 5px 10px;
+}
 .works h1 {
     text-align: center;
     margin-bottom: 76px;
@@ -809,16 +830,8 @@ h6{
     align-items: center;
     justify-content: space-around;
 }
-.btn{
-    background-color: #805bff;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 200px;
-    cursor: pointer;
-    font-size: 16px;
 
-}
+
 /* beforefooter */
 /* #beforefooter img{
       width: 100%;
