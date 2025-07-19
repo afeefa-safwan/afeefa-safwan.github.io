@@ -17,6 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
 </head>
 
@@ -64,7 +65,7 @@
 
 
         </div>
-        <div class="pic-section">
+        <div class="pic-section" data-aos="flip-left" >
             <img src="img/my-pic.png" alt="">
             <div class="btns">
                 <div class="btn-1">HIRE
@@ -88,7 +89,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6 gap-2px">
-                        <div class="glassDiv">
+                        <div class="glassDiv" data-aos="zoom-in-left" data-aos-duration="1600">
                             <div class="cnt">
                                 <img src="img/web.png" alt="">
                                 <h4>Web design</h4>
@@ -98,7 +99,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 gap-2px">
-                        <div class="app">
+                        <div class="app" data-aos="zoom-in-left" data-aos-duration="1600">
                             <div class="cnt">
                                 <img src="img/app-design.png" alt="">
                                 <h4>App design</h4>
@@ -110,7 +111,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6 gap-2px">
-                        <div class="uiux">
+                        <div class="uiux" data-aos="zoom-in-right" data-aos-duration="1600">
                             <div class="cnt">
                                 <img src="img/uiux-design.png" alt="">
                                 <h4>UI\UX design</h4>
@@ -120,7 +121,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 gap-2px">
-                        <div class="ware">
+                        <div class="ware" data-aos="zoom-in-left" data-aos-duration="1600">
                             <div class="cnt">
                                 <img src="img/ware.png" alt="">
                                 <h4>Wareframe prototype</h4>
@@ -131,7 +132,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6 gap-2px">
-                            <div class="user-research">
+                            <div class="user-research" data-aos="zoom-in-right" data-aos-duration="1600">
                                 <div class="cnt">
                                     <img src="img/user-.png" alt="">
                                     <h4>User Research</h4>
@@ -147,7 +148,8 @@
     <!-- ABOUTME -->
     <section id="aboutme">
         <div class="container">
-            <div class="about-me">
+            <div class="about-me" data-aos="fade-up"
+     data-aos-duration="3000">
                 <h1>Why Hire me?</h1>
                 <div class="row">
                     <div class="col-md-4 gap-2">
@@ -242,19 +244,30 @@
 
                 </div>
                 <div class="col-md-8">
-                    <div class="kottakkal">
+                    <div class="kottakkal" data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500" data-aos-duration="1600">
                         <h6>ADVANCED DIPLOMA IN UI\UX DESIGHNING</h6>
                         <p>Skilz The Learning Hub,kotakkal</p>
                     </div>
-                    <div class="malabar">
+                    <div class="malabar" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" data-aos-duration="1600">
                         <h6>BACHELOR OF SCIENCE IN ELECTRONICS</h6>
                         <p>Malabar College Of Advanced Studies,Vengara</p>
                     </div>
-                    <div class="plustwo">
+                    <div class="plustwo" data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500" data-aos-duration="1600" >
                         <h6> HIGHER SECONDARY SCHOOL</h6>
                         <P>Moonniyur higher secondary school,parakkadavu</P>
                     </div>
-                    <div class="school">
+                    <div class="school" data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500" data-aos-duration="1600">
                         <h6>SECONDARY SCHOOL LIVING CERTIFICATE</h6>
                         <p>Moonniyur high school,parakkadavu </p>
 
@@ -431,11 +444,15 @@
 <a href="https://wa.me/918075830670" target="_blank"></a>
  </section>
 
-
+     
      <script src="jquarry/jquery.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./js/script.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+  AOS.init();
+</script>
 </body>
 
 </html>
